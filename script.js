@@ -100,7 +100,7 @@ window.addEventListener("load", function () {
     }
   }
 
-  setInterval(scrollGallery, 20); // ปรับความเร็วได้
+  setInterval(scrollGallery, 20);
 });
 window.addEventListener("load", function () {
   const gallery = document.getElementById("auto-gallery");
@@ -116,10 +116,13 @@ window.addEventListener("load", function () {
   "ars/IMG_6404.jpeg",
   "ars/IMG_6405.jpeg",
   "ars/IMG_6406.jpeg",
-  "ars/IMG_6407.jpeg"
+  "ars/IMG_6407.jpeg",
+  "ars/IMG_6432.jpeg",
+  "ars/IMG_6433.jpeg",
+  "ars/IMG_6434.jpeg"
 ];
 
-  // 🔀 ฟังก์ชันสุ่มเรียงรูปใหม่
+
   function shuffleArray(arr) {
     return arr
       .map(value => ({ value, sort: Math.random() }))
